@@ -54,9 +54,17 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     "bootstrap-vue/nuxt",
-    '@nuxtjs/axios',
-
+    "@nuxtjs/axios",
+    "@nuxtjs/apollo"
   ],
+
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: "http://localhost:4000"
+      }
+    }
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

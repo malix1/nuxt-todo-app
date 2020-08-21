@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/apollo": "^4.0.1-rc.3",
     "@nuxtjs/axios": "^5.12.1",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
+    "graphql-tag": "^2.11.0",
     "node-sass": "^4.14.1",
     "nuxt": "^2.14.0",
     "sass-loader": "^9.0.3",
